@@ -5,8 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import static com.yellow.evgeny.popmovies.R.layout.activity_main;
-
 
 public class MainActivity extends AppCompatActivity {
     //private static final String LOG_TAG = MainActivity.class.getSimpleName();
@@ -14,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(activity_main);
+        setContentView(R.layout.activity_main);
 
        // Log.v(LOG_TAG, "in onCreate");
     }
